@@ -1,0 +1,225 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@400;700&family=Roboto+Slab:wght@400;500;600;700;800&family=Roboto:wght@400;500;700&display=swap');
+*{
+margin: 0;
+padding: 0;
+font-family: 'Roboto Condensed', sans-serif;
+font-family: 'Roboto Slab', serif;
+}
+body{
+    font-family: 'Roboto Slab', serif;
+}
+ul,li{
+    text-decoration: none;
+    list-style: none;
+}
+/* header part start */
+#header{
+    background: url('../images/header-bg.jpg');
+    
+
+}
+nav.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+}
+.menu {
+    display: flex;
+    align-items: center;
+}
+.menu a {
+    color: #4e4e4e;
+    font-size: 18px;
+    font-weight: 800;
+    font-family: 'Roboto Condensed', sans-serif;
+    transition: all linear .2s;
+}
+.menu a:hover {
+    color: #1ABB9C;
+    transition: all linear .2s;
+}
+/* header part end */
+
+
+/* banner */
+#banner{
+    background: url('../images/banner.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 500px;
+}
+.banner-content{
+    text-align: center;
+    margin: 150px 0;
+}
+.banner-content h1{
+    color: #fff;
+    font-size: 50px;
+    font-weight: 700;
+    font-family: 'Roboto Slab', serif;
+}
+.banner-content h4{
+    color: #a8a8a8;
+    font-size: 30px;
+    font-weight: 700;
+    font-family: 'Roboto Slab', serif;
+    margin: 50px 0;
+}
+.banner-content a{
+    color: #fff;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'Roboto Condensed', sans-serif;
+    padding: 10px 20px;
+    background: #3f8dbf;
+    background: linear-gradient(270deg,#3f8dbf 90%, #3678a3 80%);
+    background: -webkit-linear-gradient(270deg,#3f8dbf 90%, #3678a3 80%);
+    background: -moz-linear-gradient(270deg,#3f8dbf 90%, #3678a3 80%);
+    border-radius: 5px;
+    text-decoration: none;
+}
+/* banner */
+
+
+/* service */
+#service::after{
+    content: "";
+    display: block;
+    border-bottom: 1px solid #dcdcdc;
+    margin: 0 117px;
+}
+.ser-main{
+    margin: 60px 0;
+}
+.ser-content h4{
+    color: #4e4e4e;
+    font-size: 18px;
+    font-family: 'Roboto Slab', serif;
+    font-weight: 500;
+    margin: 15px 0 15px 0;
+}
+.ser-content p{
+    color: #616161;
+    font-size: 14px;
+    font-family: 'Roboto Slab', serif;
+    font-weight: 400;
+    line-height: 20px;
+}
+/* service */
+
+
+/* letest-work */
+#letest-work{
+    margin: 60px;
+}
+.work-card-main{
+margin-top: 25px;
+}
+.work-card-content h4{
+    color: #4e4e4e;
+    font-size: 16px;
+    font-weight: 800;
+    font-family: 'Roboto Slab', serif;
+    margin: 18px 0;
+}
+.work-card-content h5{
+    color: #a8a8a8;
+    font-size: 13px;
+    font-weight: 400;
+    font-family: 'Roboto Slab', serif;
+
+}
+.work-card-content p{
+    font-family: 'Roboto', sans-serif;
+    color: #5c5c5c;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 28px;
+}
+.letest-work-heading h4{
+    font-size: 18px;
+    font-weight: 800;
+    text-transform: uppercase;
+    color: #4e4e4e;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+/* letest-work */
+
+
+/* testimonial */
+#testimonial{
+    background: url('../images/testimonial-comma-bg.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 230px;
+}
+.inner-test img{
+    display: table;
+    margin: 0 auto;
+}
+.inner-test{
+    margin: 60px 0 50px 0;
+}
+.inner-test p{
+    font-size: 20px;
+    color: #a1a1a1;
+    font-weight: 400;
+    font-family: 'Roboto', sans-serif;
+    line-height: 28px;
+    margin: 35px 0px 0 0px;
+}
+/* testimonial */
+
+
+/* footer */
+#footer{
+    background: url('../images/footer-bg.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 450px;
+}
+.getInTouch{
+    margin-top: 50px;
+}
+.getInTouch-heading{
+    margin-top: 30px;
+}
+.getInTouch-heading h4{
+    color: #6c6c6c;
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 22px;
+    text-transform: uppercase;
+  font-family: 'Roboto Condensed', sans-serif;
+}
+.getInTouch-pera p{
+    color: #cacaca;
+    font-size: 14px;
+    font-weight: 400;
+    font-family: 'Roboto', sans-serif;
+    
+}
+.getInTouch-menu ul{
+    margin: 0;
+    padding: 0;
+}
+.getInTouch-menu ul li{
+    color: #cacaca;
+    font-size: 14px;
+    font-weight: 400;
+    font-family: 'Roboto', sans-serif;
+    margin-bottom: 12px;
+    list-style: none;
+}
+.getInTouch-menu .fa-location-dot,.fa-twitter, .fa-tty, .fa-envelope{
+color: #a89574;
+margin-right: 18px;
+}
+.lb{
+    margin-left: 32px;
+}
+/* footer */
