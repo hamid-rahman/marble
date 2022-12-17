@@ -15,8 +15,6 @@ ul,li{
 /* header part start */
 #header{
     background: url('../images/header-bg.jpg');
-    
-
 }
 nav.nav {
     display: flex;
@@ -79,6 +77,11 @@ nav.nav {
     background: -moz-linear-gradient(270deg,#3f8dbf 90%, #3678a3 80%);
     border-radius: 5px;
     text-decoration: none;
+    transition: all linear .2s;
+}
+.banner-content a:hover{
+    background: #1ABB9C;
+    transition: all linear .2s;
 }
 /* banner */
 
@@ -129,7 +132,6 @@ margin-top: 25px;
     font-size: 13px;
     font-weight: 400;
     font-family: 'Roboto Slab', serif;
-
 }
 .work-card-content p{
     font-family: 'Roboto', sans-serif;
@@ -200,8 +202,7 @@ margin-top: 25px;
     color: #cacaca;
     font-size: 14px;
     font-weight: 400;
-    font-family: 'Roboto', sans-serif;
-    
+    font-family: 'Roboto', sans-serif;  
 }
 .getInTouch-menu ul{
     margin: 0;
